@@ -14,5 +14,5 @@ buttonA.addEventListener('click', clicker);
 function clicker(e) {
   console.log('button was clicked');
   let numberA = document.getElementById("number1");
-  numberA.innerText = Number(numberA.innterText) + 1;
+  numberA.innerText = Number(numberA.innerText) + 1;
 }
