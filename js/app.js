@@ -17,10 +17,11 @@
 //   number.innerText = Number(number.innterText) + 1;
 // }
 
+
 "use strict";
 
-let button = document.getElementById('button');
-button.addEventListener('click', click);
+let buttonA = document.getElementById('button');
+buttonA.addEventListener('click', click);
 
 function click(e) {
   console.log('button was clicked');
