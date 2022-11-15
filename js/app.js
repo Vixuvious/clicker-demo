@@ -5,6 +5,7 @@
 //mdn javascript object
 //https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 let button = document.getElementById('button');
+
 //https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 button.addEventListener('click', click);
 //https://www.youtube.com/watch?v=XF1_MlZ5l6M&t=724s
