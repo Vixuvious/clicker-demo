@@ -20,11 +20,11 @@
 
 "use strict";
 
-let buttonA = document.getElementById('button');
-buttonA.addEventListener('click', click);
+let buttonA = document.getElementById('button1');
+buttonA.addEventListener('click', clicker);
 
-function click(e) {
+function clicker(e) {
   console.log('button was clicked');
-  let number = document.getElementById("number");
-  number.innerText = Number(number.innerText) + 1;
+  let numberA = document.getElementById("number1");
+  numberA.innerText = Number(numberA.innerText) + 1;
 }
