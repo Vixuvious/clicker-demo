@@ -12,6 +12,6 @@ buttonA.addEventListener('click', clicked);
 //creates a function called click with the paramater 'e'. Later an argument will be given to fill in for the parameter
 function clicked(e) {
   console.log('button was clicked');
-  let number = document.getElementById("number");
+  let number = document.getElementById("number1");
   number.innerText = Number(number.innterText) + 1;
 }
